@@ -26,7 +26,7 @@ Class Application Extends App Final
 	
 	' Constructor(s):
 	Method OnCreate:Int()
-		SetUpdateRate(30) ' FRAMERATE ' 60
+		SetUpdateRate(0) ' FRAMERATE ' 60
 		
 		Graphics = New Canvas() ' Null
 		
